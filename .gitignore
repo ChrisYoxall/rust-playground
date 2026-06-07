@@ -1,0 +1,34 @@
+# --- Rust / Cargo ---
+# Build artifacts (compiled binaries, libraries, dependency builds)
+target/
+
+# Cargo.lock is typically ignored for libraries, but committed for binaries/applications.
+# Uncomment the line below if this is a library project:
+# Cargo.lock
+
+# Cargo backup and temporary files
+**/*.rs.bk
+cargo-home/
+
+# --- JetBrains IDEs (RustRover, IntelliJ IDEA, etc.) ---
+# Ignore the entire IDE settings directory by default
+.idea/
+
+# If you wish to share run configurations and code styles in Git, 
+# you can track them by uncommenting the lines below:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+# !.idea/scopes/
+
+# Ignore workspace-specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionary.xml
+.idea/shelf/
+
+# JetBrains project files
+*.iml
+*.ipr
+*.iws
+out/
